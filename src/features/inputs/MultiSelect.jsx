@@ -78,7 +78,7 @@ const MultiSelect = ({
           }}
         />
       </div>
-      <div className="dropdown-content rounded-t-box rounded-b-box left-0 top-full h-[50vh] w-56 translate-y-0 overflow-y-auto bg-base-200 text-base-content shadow-2xl">
+      <div className="dropdown-content rounded-t-box rounded-b-box left-0 top-full h-[50vh] w-56 translate-y-0 overflow-y-auto bg-base-200 text-base-content shadow-2xl" style={{ position: 'absolute', zIndex: 9999 }}>
         <ul className="menu menu-compact p-3">
           {[...options]
             .sort((a, b) =>
