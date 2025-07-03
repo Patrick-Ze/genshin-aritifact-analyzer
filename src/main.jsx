@@ -12,7 +12,7 @@ import { store, persistor } from "./store";
 
 if (import.meta.env.DEV) {
   Sentry.init({
-    dsn: "https://fb6ab464e545427480a8baac61205322@o176406.ingest.sentry.io/4504485933613056",
+    dsn: "https://1f47a2d0ca37dbf9aa906e865bc1dc66@o4509604769234944.ingest.us.sentry.io/4509604780310528",
 
     // Set tracesSampleRate to 1.0 to capture 100%
     // of transactions for performance monitoring.

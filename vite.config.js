@@ -17,8 +17,8 @@ export default ({ mode }) => {
       sourcemap: true
     }
     config.plugins.push(sentryVitePlugin({
-      org: "caosen",
-      project: "genshin-artifact-builds",
+      org: process.env.SENTRY_ORG,
+      project: process.env.SENTRY_PROJECT,
 
       // Specify the directory containing build artifacts
       include: "./dist",
